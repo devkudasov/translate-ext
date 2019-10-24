@@ -1,0 +1,6 @@
+{
+    "name": "Translate Me",
+    "version": 1.0,
+    "description": "Translate text by using google translate API",
+    "manifest_version": 2
+}
