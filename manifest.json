@@ -1,6 +1,14 @@
 {
     "name": "Translate Me",
-    "version": 1.0,
+    "version": "1.0",
     "description": "Translate text by using google translate API",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
 }
